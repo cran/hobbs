@@ -1,0 +1,24 @@
+Package: hobbs
+Type: Package
+Title: High Dimensional Bayesian Omnibus Sampler
+Version: 0.4.4
+Authors@R: person("Mike", "Kleinsasser", email = "mjkleinsa@gmail.com", 
+    role = c("aut", "cre"))
+Description: Enables high dimensional statistical modeling using Bayesian
+    inference and provides a probabilistic programming language for high
+    dimensional problems. See Kleinsasser (2026)
+    <doi:10.5281/zenodo.22309216>.
+License: GPL-3
+Encoding: UTF-8
+SystemRequirements: Cargo (Rust's package manager), rustc, C compiler
+URL: https://hobbs-dev.github.io/
+BugReports: https://github.com/hobbs-dev/hobbs/issues
+Suggests: testthat (>= 3.0.0), rjags, rstan
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: yes
+Packaged: 2026-09-22 13:58:28 UTC; mk
+Author: Mike Kleinsasser [aut, cre]
+Maintainer: Mike Kleinsasser <mjkleinsa@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-09-30 13:30:02 UTC
